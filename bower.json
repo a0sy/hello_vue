@@ -1,0 +1,17 @@
+{
+  "name": "hello_vue",
+  "version": "0.0.0",
+  "authors": [
+    "a0sy <a0sy.gl@gmail.com>"
+  ],
+  "description": "My first Vue.js application.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
