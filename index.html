@@ -13,7 +13,20 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
   <link rel="shortcut icon" href="">
+  <script type="text/javascript" src="bower_components/vue/dist/vue.js"></script>
   </head>
   <body>
+    <div id="demo">
+        <p>{{message}}</p>
+        <input v-model="message">
+    </div>
+    <script>
+    var demo = new Vue({
+      el: '#demo',
+      data: {
+          message: 'Hello Vue.js!'
+      }
+    })
+    </script>
   </body>
 </html>
